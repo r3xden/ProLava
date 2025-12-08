@@ -1,0 +1,26 @@
+name: 🔐 Security Concern
+description: Report a potential security issue (do not post exploits)
+title: "[SECURITY]: "
+labels: ["security"]
+body:
+  - type: textarea
+    attributes:
+      label: Describe the security concern
+      description: Do NOT include exploit code here. Provide a general description.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Where is the issue located?
+      description: Which config, file, or component is affected?
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Have you also emailed the security contact?
+      description: Security issues should also be sent to the email in SECURITY.md
+    validations:
+      required: false
+      
