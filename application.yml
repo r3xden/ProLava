@@ -1,0 +1,26 @@
+server:
+  port: 2333
+
+lavalink:
+  server:
+    password: "changeme"
+    sources:
+      youtube: true
+      soundcloud: true
+      bandcamp: true
+      twitch: true
+      vimeo: true
+      http: true
+      local: false
+
+    bufferDurationMs: 400
+    frameBufferDurationMs: 5000
+
+spring:
+  main:
+    banner-mode: off
+
+logging:
+  level:
+    root: INFO
+    
