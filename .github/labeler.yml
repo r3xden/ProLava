@@ -1,0 +1,23 @@
+bug:
+  - "bug"
+  - "error"
+  - "crash"
+
+enhancement:
+  - "feature"
+  - "improvement"
+  - "enhance"
+
+security:
+  - "security"
+  - "vulnerability"
+  - "exploit"
+
+docker:
+  - "docker"
+  - "docker-compose"
+
+documentation:
+  - "docs"
+  - "readme"
+  
