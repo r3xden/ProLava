@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  prolava:
+    image: ghcr.io/lavalink-devs/lavalink:latest
+    container_name: prolava
+    restart: unless-stopped
+    environment:
+      - SERVER_PORT=2333
+      - LAVALINK_SERVER_PASSWORD=changeme
+    volumes:
+      - ./application.yml:/opt/Lavalink/application.yml
+    ports:
+      - "2333:2333"
+      
