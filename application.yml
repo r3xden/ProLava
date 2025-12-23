@@ -4,6 +4,9 @@ server:
 lavalink:
   server:
     password: "changeme"
+    player:
+    updateInterval: 5
+    stuckThresholdMs: 10000
     sources:
       youtube: true
       soundcloud: true
