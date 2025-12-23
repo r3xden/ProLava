@@ -15,6 +15,9 @@ lavalink:
 
     bufferDurationMs: 400
     frameBufferDurationMs: 5000
+    opusEncodingQuality: 10
+    resamplingQuality: HIGH
+    trackStuckThresholdMs: 10000
 
 spring:
   main:
