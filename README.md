@@ -63,6 +63,7 @@ ProLava fixes all of this with:
 
 ## 📂 Project Structure
 
+```bash
 ProLava/
 ├── .github/
 │   └── FUNDING.yml
@@ -77,6 +78,7 @@ ProLava/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
 ---
 
